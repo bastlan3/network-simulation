@@ -44,5 +44,6 @@ public:
 private:
     std::vector<double> values;
     std::multimap<size_t, size_t> links;
-
+	bool test_link(const size_t& n,const size_t& m);
+	int max_nodes();
 };
